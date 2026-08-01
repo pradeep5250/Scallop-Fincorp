@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scallops Fincorp | Private Finance, Chit Fund & Investments</title>
+    <meta name="description" content="Scallops Fincorp — Your trusted partner for private finance, chit funds, and investments. Building financial confidence since 2006.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800;900&family=Inter:wght@300;400;500;600;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+        <a href="index.html" class="logo">
+            <div class="logo-icon"><i class="fa-solid fa-coins"></i></div>
+            <div class="logo-text">
+                SCALLOPS
+                <span>PRIVATE FINANCE · CHIT FUND · INVESTMENTS</span>
+            </div>
+        </a>
+        <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle Navigation">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="services/index.html">Services</a></li>
+            <li class="dropdown">
+                <a href="group-finance/index.html">Group Finance <i class="fa-solid fa-chevron-down" style="font-size: 0.6rem; margin-left: 2px;"></i></a>
+                <ul class="dropdown-menu">
+                    <li><a href="group-finance/salons/index.html"><i class="fa-solid fa-scissors" style="width: 16px; color: var(--gold);"></i> Salons & Parlours</a></li>
+                    <li><a href="group-finance/meat-stalls/index.html"><i class="fa-solid fa-drumstick-bite" style="width: 16px; color: var(--gold);"></i> Meat & Fish Stalls</a></li>
+                    <li><a href="group-finance/bakeries/index.html"><i class="fa-solid fa-bread-slice" style="width: 16px; color: var(--gold);"></i> Bakeries & Tea</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#">Apply <i class="fa-solid fa-chevron-down" style="font-size: 0.6rem; margin-left: 2px;"></i></a>
+                <ul class="dropdown-menu">
+                    <li><a href="forms/membership/index.html"><i class="fa-solid fa-file-pen" style="width: 16px; color: var(--gold);"></i> Membership Form</a></li>
+                    <li><a href="forms/guarantor/index.html"><i class="fa-solid fa-file-signature" style="width: 16px; color: var(--gold);"></i> Guarantor Form</a></li>
+                </ul>
+            </li>
+            <li><a href="contact/index.html">Contact</a></li>
+        </ul>
+        <a href="forms/membership/index.html" class="btn-primary">
+            <i class="fa-solid fa-arrow-right"></i> Apply Now
+        </a>
+    </nav>
+
+    <!-- HERO -->
+    <header class="hero">
+        <!-- Animated Particles -->
+        <div class="hero-particles" id="particles"></div>
+        <!-- Gradient Orbs -->
+        <div class="hero-gradient-orb orb-1"></div>
+        <div class="hero-gradient-orb orb-2"></div>
+
+        <div class="hero-inner">
+            <div class="hero-text">
+                <div class="hero-badge">
+                    <i class="fa-solid fa-star"></i> Trusted Since 2006
+                </div>
+                <h1>
+                    Smart Finance,<br>
+                    <span class="highlight">Stronger Future</span>
+                </h1>
+                <p>Your trusted partner for safe savings, secure growth, and flexible financial solutions. We help you build lasting prosperity with transparent and ethical practices.</p>
+                <div class="hero-buttons">
+                    <a href="services/index.html" class="btn-gold">
+                        <i class="fa-solid fa-compass"></i> Explore Services
+                    </a>
+                    <a href="#contact" class="btn-outline">
+                        <i class="fa-solid fa-phone"></i> Contact Us
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image-area">
+                <div class="hero-float-card card-1">
+                    <div class="card-number">15K+</div>
+                    <div class="card-label">Happy Clients</div>
+                </div>
+                <div class="hero-float-card card-2">
+                    <div class="card-number">₹100Cr+</div>
+                    <div class="card-label">Funds Disbursed</div>
+                </div>
+                <div class="hero-img-container">
+                    <img src="assets/images/hero-premium.png" alt="Scallops Fincorp — Financial Growth">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- TRUST BAR -->
+    <div class="trust-bar fade-in-section">
+        <div class="trust-bar-inner">
+            <div class="trust-item"><i class="fa-solid fa-shield-halved"></i> Trusted & Reliable</div>
+            <div class="trust-item"><i class="fa-solid fa-hand-holding-heart"></i> Customer First</div>
+            <div class="trust-item"><i class="fa-solid fa-lock"></i> Secure & Transparent</div>
+            <div class="trust-item"><i class="fa-solid fa-award"></i> Ethical Practices</div>
+            <div class="trust-item"><i class="fa-solid fa-headset"></i> Timely Support</div>
+        </div>
+    </div>
+
+    <!-- SERVICES -->
+    <section class="section" id="services">
+        <div class="section-header fade-in-section">
+            <div class="section-label">What We Offer</div>
+            <h2 class="section-title">Our Core Services</h2>
+            <p class="section-subtitle">Comprehensive financial solutions designed to empower your journey toward financial freedom and prosperity.</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card fade-in-section stagger-1" onclick="window.location.href='services/index.html'">
+                <div class="service-icon-wrap"><i class="fa-solid fa-hand-holding-dollar"></i></div>
+                <h3>Private Finance</h3>
+                <p>Quick & flexible financial solutions for your immediate personal and business needs.</p>
+                <ul class="features-list">
+                    <li>Business Loans</li>
+                    <li>Personal Loans</li>
+                    <li>Project Finance</li>
+                </ul>
+                <a href="services/index.html" class="service-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+            <div class="service-card fade-in-section stagger-2" onclick="window.location.href='services/index.html'">
+                <div class="service-icon-wrap"><i class="fa-solid fa-people-group"></i></div>
+                <h3>Chit Fund</h3>
+                <p>Trusted chit plans designed for disciplined savings and wealth creation.</p>
+                <ul class="features-list">
+                    <li>Daily Chit Plans</li>
+                    <li>Monthly Chit Plans</li>
+                    <li>Premium Chit Plans</li>
+                </ul>
+                <a href="services/index.html" class="service-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+            <div class="service-card fade-in-section stagger-3" onclick="window.location.href='services/index.html'">
+                <div class="service-icon-wrap"><i class="fa-solid fa-chart-line"></i></div>
+                <h3>Investments</h3>
+                <p>Grow your wealth with confidence through our secure, high-return investment plans.</p>
+                <ul class="features-list">
+                    <li>Safe Investments</li>
+                    <li>Better Returns</li>
+                    <li>Financial Freedom</li>
+                </ul>
+                <a href="services/index.html" class="service-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="stats-section">
+        <div class="stats-grid">
+            <div class="stat-item fade-in-section stagger-1">
+                <h3><span class="counter" data-target="20">0</span></h3>
+                <p>Years of Trust</p>
+            </div>
+            <div class="stat-item fade-in-section stagger-2">
+                <h3><span class="counter" data-target="15000">0</span>+</h3>
+                <p>Happy Clients</p>
+            </div>
+            <div class="stat-item fade-in-section stagger-3">
+                <h3>₹<span class="counter" data-target="100">0</span>Cr+</h3>
+                <p>Funds Disbursed</p>
+            </div>
+            <div class="stat-item fade-in-section stagger-4">
+                <h3><span class="counter" data-target="15">0</span>+</h3>
+                <p>Branches</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY CHOOSE US -->
+    <section class="section why-section">
+        <div class="section-header fade-in-section">
+            <div class="section-label">Our Promise</div>
+            <h2 class="section-title">Why Choose Scallops Fincorp?</h2>
+            <p class="section-subtitle">We believe in building long-term relationships based on trust, transparency, and mutual growth.</p>
+        </div>
+        <div class="why-grid">
+            <div class="why-card fade-in-section stagger-1">
+                <div class="why-icon"><i class="fa-solid fa-users-gear"></i></div>
+                <div>
+                    <h4>Experienced Team</h4>
+                    <p>Professional and dedicated team with decades of expertise in finance.</p>
+                </div>
+            </div>
+            <div class="why-card fade-in-section stagger-2">
+                <div class="why-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+                <div>
+                    <h4>Customer-Centric</h4>
+                    <p>Your success is our priority. Every plan is tailored to your unique needs.</p>
+                </div>
+            </div>
+            <div class="why-card fade-in-section stagger-3">
+                <div class="why-icon"><i class="fa-solid fa-eye"></i></div>
+                <div>
+                    <h4>Transparent Practices</h4>
+                    <p>No hidden charges, no surprises. Complete clarity in every transaction.</p>
+                </div>
+            </div>
+            <div class="why-card fade-in-section stagger-4">
+                <div class="why-icon"><i class="fa-solid fa-rocket"></i></div>
+                <div>
+                    <h4>Flexible Plans</h4>
+                    <p>From daily chits to large investments — we have a plan for every budget.</p>
+                </div>
+            </div>
+            <div class="why-card fade-in-section stagger-1">
+                <div class="why-icon"><i class="fa-solid fa-clock"></i></div>
+                <div>
+                    <h4>Timely Support</h4>
+                    <p>Always available to guide you through your financial journey.</p>
+                </div>
+            </div>
+            <div class="why-card fade-in-section stagger-2">
+                <div class="why-icon"><i class="fa-solid fa-trophy"></i></div>
+                <div>
+                    <h4>Your Success</h4>
+                    <p>Your growth is our strength. Your trust is our commitment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SPECIAL BENEFIT FUNDS -->
+    <section class="section benefit-funds-section" id="benefit-funds">
+        <div class="section-header fade-in-section">
+            <div class="section-label">Latest Schemes</div>
+            <h2 class="section-title">Special Benefit Funds</h2>
+            <p class="section-subtitle">Celebrate festivals and secure your future with our exclusive benefit funds and saving schemes.</p>
+        </div>
+        <div class="posters-scroller-container fade-in-section">
+            <div class="posters-scroller">
+                <!-- Original set -->
+                <div class="poster-card">
+                    <img src="assets/images/dasara-diwali-en.jpg" onerror="this.onerror=null; this.src='https://placehold.co/600x800/f5f7fa/718096?text=Missing+Image%0A%0APlease+save+as%3A%0Aassets%2Fimages%2Fdasara-diwali-en.jpg';" alt="Dasara & Diwali Benefit Fund (English)">
+                </div>
+                <div class="poster-card">
+                    <img src="assets/images/dasara-diwali-kn.jpg" onerror="this.onerror=null; this.src='https://placehold.co/600x800/f5f7fa/718096?text=Missing+Image%0A%0APlease+save+as%3A%0Aassets%2Fimages%2Fdasara-diwali-kn.jpg';" alt="Dasara & Diwali Benefit Fund (Kannada)">
+                </div>
+                <div class="poster-card">
+                    <img src="assets/images/ugadi.jpg" onerror="this.onerror=null; this.src='https://placehold.co/600x800/f5f7fa/718096?text=Missing+Image%0A%0APlease+save+as%3A%0Aassets%2Fimages%2Fugadi.jpg';" alt="Ugadi Benefit Funds">
+                </div>
+                <div class="poster-card">
+                    <img src="assets/images/school-fees.jpg" onerror="this.onerror=null; this.src='https://placehold.co/600x800/f5f7fa/718096?text=Missing+Image%0A%0APlease+save+as%3A%0Aassets%2Fimages%2Fschool-fees.jpg';" alt="School Fees Saving & Benefits Fund">
+                </div>
+                <div class="poster-card">
+                    <img src="assets/images/ramadan.jpg" onerror="this.onerror=null; this.src='https://placehold.co/600x800/f5f7fa/718096?text=Missing+Image%0A%0APlease+save+as%3A%0Aassets%2Fimages%2Framadan.jpg';" alt="Ramadan Premium Family Kit">
+                </div>
+                
+                <!-- Duplicate set for seamless looping -->
+                <div class="poster-card" aria-hidden="true">
+                    <img src="assets/images/dasara-diwali-en.jpg" onerror="this.onerror=null; this.src='https://placehold.co/600x800/f5f7fa/718096?text=Missing+Image%0A%0APlease+save+as%3A%0Aassets%2Fimages%2Fdasara-diwali-en.jpg';" alt="Dasara & Diwali Benefit Fund (English)">
+                </div>
+                <div class="poster-card" aria-hidden="true">
+                    <img src="assets/images/dasara-diwali-kn.jpg" onerror="this.onerror=null; this.src='https://placehold.co/600x800/f5f7fa/718096?text=Missing+Image%0A%0APlease+save+as%3A%0Aassets%2Fimages%2Fdasara-diwali-kn.jpg';" alt="Dasara & Diwali Benefit Fund (Kannada)">
+                </div>
+                <div class="poster-card" aria-hidden="true">
+                    <img src="assets/images/ugadi.jpg" onerror="this.onerror=null; this.src='https://placehold.co/600x800/f5f7fa/718096?text=Missing+Image%0A%0APlease+save+as%3A%0Aassets%2Fimages%2Fugadi.jpg';" alt="Ugadi Benefit Funds">
+                </div>
+                <div class="poster-card" aria-hidden="true">
+                    <img src="assets/images/school-fees.jpg" onerror="this.onerror=null; this.src='https://placehold.co/600x800/f5f7fa/718096?text=Missing+Image%0A%0APlease+save+as%3A%0Aassets%2Fimages%2Fschool-fees.jpg';" alt="School Fees Saving & Benefits Fund">
+                </div>
+                <div class="poster-card" aria-hidden="true">
+                    <img src="assets/images/ramadan.jpg" onerror="this.onerror=null; this.src='https://placehold.co/600x800/f5f7fa/718096?text=Missing+Image%0A%0APlease+save+as%3A%0Aassets%2Fimages%2Framadan.jpg';" alt="Ramadan Premium Family Kit">
+                </div>
+            </div>
+        </div>
+        <div style="text-align: center; margin-top: 3rem;" class="fade-in-section">
+            <a href="forms/membership/index.html" class="btn-primary" style="font-size: 1rem; padding: 0.85rem 2.5rem;">
+                <i class="fa-solid fa-file-pen"></i> Enroll Now
+            </a>
+        </div>
+    </section>
+
+    <!-- GROUP FINANCE QUICK ACCESS -->
+    <section class="section" id="group-finance">
+        <div class="section-header fade-in-section">
+            <div class="section-label">Business Growth</div>
+            <h2 class="section-title">Group Finance Schemes</h2>
+            <p class="section-subtitle">Easy group finance for small business owners. No guarantor, no registration fees, table cash — grow your business with confidence.</p>
+        </div>
+        <div class="gf-cards-grid">
+            <a href="group-finance/salons/index.html" class="gf-card fade-in-section stagger-1">
+                <div class="gf-card-image">
+                    <img src="assets/images/salon.png" alt="Salons & Beauty Parlours">
+                    <div class="gf-card-overlay"></div>
+                </div>
+                <div class="gf-card-body">
+                    <div class="gf-card-icon"><i class="fa-solid fa-scissors"></i></div>
+                    <h3>Salons & Beauty Parlours</h3>
+                    <p>Mens Saloon & Ladies Beauty Parlours — Easy finance for your salon business.</p>
+                    <span class="gf-card-link">View Schemes <i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+            </a>
+
+            <a href="group-finance/meat-stalls/index.html" class="gf-card fade-in-section stagger-2">
+                <div class="gf-card-image">
+                    <img src="assets/images/meat.png" alt="Meat & Fish Stalls">
+                    <div class="gf-card-overlay"></div>
+                </div>
+                <div class="gf-card-body">
+                    <div class="gf-card-icon"><i class="fa-solid fa-drumstick-bite"></i></div>
+                    <h3>Meat & Fish Stalls</h3>
+                    <p>Mutton, Chicken, Fish & Egg Stalls — Quick finance for your fresh market business.</p>
+                    <span class="gf-card-link">View Schemes <i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+            </a>
+
+            <a href="group-finance/bakeries/index.html" class="gf-card fade-in-section stagger-3">
+                <div class="gf-card-image">
+                    <img src="assets/images/bakery.png" alt="Bakeries & Tea Stalls">
+                    <div class="gf-card-overlay"></div>
+                </div>
+                <div class="gf-card-body">
+                    <div class="gf-card-icon"><i class="fa-solid fa-mug-hot"></i></div>
+                    <h3>Bakeries & Tea Stalls</h3>
+                    <p>Bakery, Tea Stall & Juice Shop — Grow your food business with easy finance.</p>
+                    <span class="gf-card-link">View Schemes <i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+            </a>
+        </div>
+        <div style="text-align: center; margin-top: 3rem;" class="fade-in-section">
+            <a href="group-finance/index.html" class="btn-primary" style="font-size: 1rem; padding: 0.85rem 2.5rem;">
+                <i class="fa-solid fa-grid-2"></i> View All Group Finance Schemes
+            </a>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+        <div class="cta-card fade-in-section">
+            <h2>Let's <span style="color: var(--gold);">Grow Together</span></h2>
+            <p>Join thousands of satisfied clients who have secured their financial future with Scallops Fincorp.</p>
+            <div class="cta-buttons">
+                <a href="forms/membership/index.html" class="btn-gold"><i class="fa-solid fa-pen-to-square"></i> Apply for Membership</a>
+                <a href="tel:+917090579855" class="btn-outline"><i class="fa-solid fa-phone"></i> Call: 70905 79855</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-col">
+                <a href="index.html" class="logo" style="margin-bottom: 1.5rem; display: inline-flex;">
+                    <div class="logo-icon"><i class="fa-solid fa-coins"></i></div>
+                    <div class="logo-text" style="color: white;">
+                        SCALLOPS
+                        <span style="color: var(--gold);">PRIVATE FINANCE · CHIT FUND · INVESTMENTS</span>
+                    </div>
+                </a>
+                <p>Together Towards a Better Tomorrow. Building financial confidence and creating lasting prosperity since 2006.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <ul class="footer-links">
+                    <li><a href="services/index.html"><i class="fa-solid fa-chevron-right" style="font-size: 0.6rem;"></i> Private Finance</a></li>
+                    <li><a href="services/index.html"><i class="fa-solid fa-chevron-right" style="font-size: 0.6rem;"></i> Chit Fund</a></li>
+                    <li><a href="services/index.html"><i class="fa-solid fa-chevron-right" style="font-size: 0.6rem;"></i> Investments</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="group-finance/salons/index.html"><i class="fa-solid fa-chevron-right" style="font-size: 0.6rem;"></i> Group Finance</a></li>
+                    <li><a href="forms/membership/index.html"><i class="fa-solid fa-chevron-right" style="font-size: 0.6rem;"></i> Membership Form</a></li>
+                    <li><a href="forms/guarantor/index.html"><i class="fa-solid fa-chevron-right" style="font-size: 0.6rem;"></i> Guarantor Form</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <ul class="contact-info">
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <div>
+                            <p>70905 79855</p>
+                            <p>74065 69855</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <p>70905 79855</p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>No 1723/D, 1st Floor,<br>KB Complex, MKK Road,<br>Rajajinagar, Bangalore 560010</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Scallops Fincorp. All rights reserved. | Together Towards a Better Tomorrow</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
